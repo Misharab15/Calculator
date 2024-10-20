@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.outerMostDiv {
+    border: 2px solid grey;
+    border-radius: 1rem;
+    display: inline-block;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3vh;
+    min-height: 67vh;
+    width: 40vh;
+    margin-top: 15vh;   
+}
+
+.display {
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    background-color: black;
+    border: 2px solid gray;
+    color: #dedfe0;
+}
+
+
+/* All buttons styling */ 
+button {
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 55px;
+    height: 55px;
+    box-sizing: border-box;
+    font-size: 25px;
+    border: none;
+    text-align: center;
+}
+
+.onebtn4 {
+    font-size: 1.3rem;
+}
+
+.twobtn4 {
+    font-size: 1.3rem;
+}
+
+.threebtn4 {
+    font-size: 1.3rem;
+}
+
+.fourbtn4 {
+    font-size: 1.3rem;
+}
+
+.fivebtn3 {
+    font-size: 1.3rem;
+}
+
+.onebtn1, .onebtn2, .onebtn3 {
+    background-color: #a3a4a5;
+    color: black;
+    margin-left: 1.90px;
+}
+
+.onebtn4, .twobtn4, .threebtn4, .fourbtn4, .fivebtn3 {
+    background-color: #fe9e05;
+    color: #dedfe0;
+    margin-left: 1.90px;
+}
+
+.twobtn1, .twobtn2, .twobtn3, .threebtn1, .threebtn2, .threebtn3, .fourbtn1, .fourbtn2, .fourbtn3, .fivebtn2 {
+    background-color: #333333;
+    color: #dedfe0;
+    margin-left: 1.90px;
+}
+
+
+/* Hover Effects */
+.onebtn1:hover, .onebtn2:hover, .onebtn3:hover {
+    background-color: #d9d9d9; 
+}
+
+.onebtn4:hover, .twobtn4:hover, .threebtn4:hover, .fourbtn4:hover, .fivebtn3:hover {
+    background-color: #fdc68d;
+}
+
+.twobtn1:hover, .twobtn2:hover, .twobtn3:hover, .threebtn1:hover, .threebtn2:hover, .threebtn3:hover, .fourbtn1:hover, .fourbtn2:hover, .fourbtn3:hover, .fivebtn2:hover {
+    background-color: #737373;
+}
+
+.onebtn4:hover, .twobtn4:hover, .threebtn4:hover, .fourbtn4:hover, .fivebtn3:hover {
+    color: #fe9e05;
+    background-color: white;
+}

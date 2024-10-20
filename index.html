@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="image.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="outerMostDiv">
+        <input type="text" class="display" placeholder="0" readonly/>
+        <div class="outerDiv">
+             <div class="firstDiv">
+                <button class="onebtn1" onclick="clearAll()">AC</button>
+                <button class="onebtn2" onclick="remove()">DE</button>
+                <button class="onebtn3" onclick="alterDisplay('%')">%</button>
+                <button class="onebtn4" onclick="alterDisplay('/')"><i class="fa-solid fa-divide"></i></button>
+             </div>
+
+             <div class="secondDiv">
+                <button class="twobtn1" onclick="alterDisplay('7')">7</button>
+                <button class="twobtn2" onclick="alterDisplay('8')">8</button>
+                <button class="twobtn3" onclick="alterDisplay('9')">9</button>
+                <button class="twobtn4" onclick="alterDisplay('*')"><i class="fa-solid fa-xmark"></i></button>
+             </div>
+
+             <div class="thirdDiv">
+                <button class="threebtn1" onclick="alterDisplay('4')">4</button>
+                <button class="threebtn2" onclick="alterDisplay('5')">5</button>
+                <button class="threebtn3" onclick="alterDisplay('6')">6</button>
+                <button class="threebtn4" onclick="alterDisplay('-')"><i class="fa-solid fa-minus"></i></button>
+             </div>
+
+             <div class="fourthDiv">
+                <button class="fourbtn1" onclick="alterDisplay('1')">1</button>
+                <button class="fourbtn2" onclick="alterDisplay('2')">2</button>
+                <button class="fourbtn3" onclick="alterDisplay('3')">3</button>
+                <button class="fourbtn4" onclick="alterDisplay('+')"><i class="fa-solid fa-plus"></i></button>
+             </div>
+
+             <div class="fifthDiv">
+                <button style="border-radius: 50px; width: 7rem; text-align: left; padding-left: 1.25rem; background-color: #333333; color: #dedfe0; border: none; margin-left: 1.90px;" class="fivebtn1" onclick="alterDisplay('0')">0</button>
+                <button class="fivebtn2" onclick="alterDisplay('.')">.</button>
+                <button class="fivebtn3" onclick="calculate('=')"><i class="fa-solid fa-equals"></i></button>
+             </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
